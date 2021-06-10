@@ -32,7 +32,7 @@ class ProposalRepositoryTest(private val repository: ProposalRepository) {
     fun `should find by id and customer id`() {
         // scenario
         val proposal = repository.save(Proposal(
-            name = "p1",
+            name = "p2",
             customerId = UUID.randomUUID()
         ))
 
